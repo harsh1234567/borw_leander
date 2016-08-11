@@ -1,0 +1,29 @@
+@import url(../css/font-awesome.css);
+@import url(../css/material-icons.css);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700|Open+Sans);
+/*==================  GOOGLE MAP  ======================*/
+.map {
+  position: relative;
+}
+.map_model {
+  height: 29.375rem;
+}
+.map_model img {
+  max-width: none !important;
+}
+@media (max-width: 767px) {
+  .map_model {
+    height: 25rem;
+  }
+}
+@media (max-width: 479px) {
+  .map_model {
+    height: 18.75rem;
+  }
+}
+.map_locations {
+  display: none;
+}
+.map p {
+  font-size: 14px;
+}
